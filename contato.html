@@ -9,6 +9,32 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
     <title>Contato</title>
+
+    <style>
+        .icones {
+        
+  text-align: center
+}
+         .final {
+            text-align: center;
+            color:blueviolet
+
+         }
+
+    form div {
+  margin-bottom: 1px;
+}
+
+label,
+input,
+textarea
+ {
+  display: block;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+    </style>
 </head>
 
 <body>
@@ -17,7 +43,7 @@
     <header>
 
         <!-- Título do cabeçalho -->
-        <h1>Generation Brasil</h1>
+        <h1>Winnie Sant'Ana</h1>
 
         <!-- Menu de Navegação -->
         <nav>
@@ -37,13 +63,55 @@
     <main>
 
         <!-- Seção do Formulário -->
-        <form action="#" method="submit" id="formulario">
+        <form action="#" method="post" id="formulario">
+
+                <label for="name">Nome:</label>
+                <input id="name" type="text" name="name" placeholder="Digite seu nome"/>
+                <span id="errNome"></span>
+            
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="Digite o seu e-mail"/>
+                <span id="errEmail"></span>
+
+            <div>
+                <label for="subject">Assunto: </label>
+                <input id="subject" type="text" name="sunject" placeholder="Digite o assunto da mensagem"/>
+                <span id="errSubject"> </span>
+            </div>
+
+            <div>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </div>  
+
+            
 
         </form>
 
         <!-- Seção do Google Maps -->
         <article>
+<!-- Seção do Google Maps -->
+<article>
+	
+     <address>
+         <p>Farol da Barra</p>
+		<p>Salvador - BA</p>
+     </address>
 
+	<iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7774.811729131725!2d-38.5348051860697!3d-13.00980644554872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfaro%20da%20barra!5e0!3m2!1spt-BR!2sbr!4v1760559216215!5m2!1spt-BR!2sbr" 		width="400"
+		height="250"
+		frameborder="0"
+		style="border: 0"
+		allowfullscreen=""
+		aria-hidden="false"
+		tabindex="0"
+		id="mapa"
+		>
+	</iframe>
+
+</article>
         </article>
 
     </main>
@@ -72,8 +140,8 @@
 
         </section>
 
-		<h3>
-			Com apoio de: Generation Brasil
+		<h3 class="final">
+			  Com apoio de: Generation Brasil
 		</h3>
 
     </footer>
