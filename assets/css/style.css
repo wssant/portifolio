@@ -10,7 +10,6 @@
   --rosaescuro: #cc0099;
   --preto: #000000;
   --roxo: #884dff;
-
 }
 
 body {
@@ -126,15 +125,15 @@ p {
   color: blueviolet;
 }
 
-footer{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    color: var(--preto);
-    background-color: var(--branco);
-    font-weight: bold;
-    text-align: center;  
+footer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: var(--preto);
+  background-color: var(--branco);
+  font-weight: bold;
+  text-align: center;
 }
 
 .main_contato {
@@ -153,7 +152,8 @@ form {
   border-radius: 0.75rem;
 }
 
-form input, textarea{
+form input,
+textarea {
   padding: 0.5rem;
   border-radius: 0.75rem;
   border: var(--preto);
@@ -172,39 +172,39 @@ form button {
   border: 1px solid var(--branco);
   border-radius: 0.75rem;
   font-weight: 700;
-  cursor:grab;
+  cursor: grab;
 }
 
 form button:hover {
-  background:var(--rosaclaro);
+  background: var(--rosaclaro);
 }
 
 form span {
-  color:var(--rosaescuro);
+  color: var(--rosaescuro);
   font-size: 0.75rem;
 }
 
 .article_mapa {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    background: var(--branco);
-    padding: 1.5rem;
-    border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--branco);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
 }
 
 .article_mapa address {
-    width: 75%;
+  width: 75%;
 }
 
-.article_mapa address p { 
-    font-weight: 600; 
+.article_mapa address p {
+  font-weight: 600;
 }
 
 .article_mapa iframe {
-    align-self: center; 
+  align-self: center;
 }
 
 #p1 {
@@ -220,7 +220,6 @@ form span {
   gap: 32px;
   grid-template-columns: repeat(3, 1fr);
   background: var(--branco);
-
 }
 
 /* teste */
@@ -228,7 +227,7 @@ form span {
 body {
   background: var(--rosaclaro);
   margin: 0;
-  font-family:Arial;
+  font-family: Arial;
 }
 
 .container {
