@@ -9,6 +9,8 @@
   --branco: #ffff;
   --rosaescuro: #cc0099;
   --preto: #000000;
+  --roxo: #884dff;
+
 }
 
 body {
@@ -29,7 +31,7 @@ h1 {
 }
 
 h2 {
-  color: #cc0099;
+  color: var(--roxo);
   font-size: 1.5rem;
   padding: 1rem 0;
   font-weight: 600;
@@ -109,6 +111,8 @@ p {
   width: 35%;
   box-sizing: border-box;
   margin-left: 35%;
+  border: 1px solid var(--branco);
+  border-radius: 0.75rem;
 }
 .footer img {
   text-align: center;
@@ -180,6 +184,28 @@ form span {
   font-size: 0.75rem;
 }
 
+.article_mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--branco);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+}
+
+.article_mapa address {
+    width: 75%;
+}
+
+.article_mapa address p { 
+    font-weight: 600; 
+}
+
+.article_mapa iframe {
+    align-self: center; 
+}
 
 #p1 {
   text-align: center;
@@ -193,6 +219,8 @@ form span {
   display: grid;
   gap: 32px;
   grid-template-columns: repeat(3, 1fr);
+  background: var(--branco);
+
 }
 
 .alinhar_fotos {
@@ -204,4 +232,7 @@ form span {
 .alinhar_fotos img {
   width: 15%;
   margin-right: 15%;
+  border-radius: 0.75rem;
+  border: 1px solid var(--branco)
+  
 }
