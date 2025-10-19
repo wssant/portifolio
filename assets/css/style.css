@@ -223,16 +223,54 @@ form span {
 
 }
 
-.alinhar_fotos {
-  display: flex;
-  gap: 32px;
-  margin-left: 15%;
+/* teste */
+
+body {
+  background: var(--rosaclaro);
+  margin: 0;
+  font-family:Arial;
 }
 
-.alinhar_fotos img {
-  width: 15%;
-  margin-right: 15%;
-  border-radius: 0.75rem;
-  border: 1px solid var(--branco)
-  
+.container {
+  padding: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.card-img {
+  width: 90%;
+  height: 350px;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+
+.card-body {
+  padding: 18px;
+  text-align: center;
+}
+
+.card-title {
+  margin: 4px;
+  font-size: 1.2rem;
+  color: var(--rosaescuro);
+}
+
+.card-text {
+  color: var(--preto);
+  font-size: 1rem;
 }
